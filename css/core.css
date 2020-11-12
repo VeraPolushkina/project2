@@ -1,0 +1,31 @@
+/* Базовый файл со стилями */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: proxima, Arial, sans-serif;
+    font-size: 16px;
+    color: #000;
+    /* Позволяет переносить слова на новую строчку */
+    overflow-wrap: break-word; 
+}
+
+.container {
+    max-width: 100%;
+    min-width: 320px;
+}
+
+.wrap {
+    /* Зазмер от края до края контента, типо контейнера */
+    max-width: 1500px;
+    min-width: 290px;
+    /* При уменьшении величины вьюпорта контент не будет прилипать к краям */
+    padding: 0 15px;
+    margin: 0 auto;
+}
